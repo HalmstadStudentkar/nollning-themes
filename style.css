@@ -1,5 +1,5 @@
 /*
-Theme Name: Hemingway CHILDNAME
+Theme Name: Hemingway TBI
 Template: hemingway
 Author: Madeleine Holgersson
 License: GNU General Public License version 2.0
@@ -8,8 +8,117 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /*
 Colors used in this child theme:
-Association color: 
-Lighter shade in menu and links: 
-Light shade credits: 
-Dark shade in header section: 
+Association color: #EEE8AA
+Lighter shade in menu and links: #f4f1cc
+Light shade credits: #d9e1d7
+Dark shade in header section: #444
 */
+
+/*Change the color of the header block*/
+.blog-info {
+    background: #EEE8AA;
+}
+
+.blog-description {
+    color: #444;
+}
+
+.blog-title a {
+    color: #444;
+}
+
+.blog-title a:hover {
+    color: #666;
+}
+
+/*Change the color of menu div*/
+.section.bg-dark {
+    background: #EEE8AA;
+}
+
+.blog-menu a {
+    color: #444;
+}
+
+.blog-menu ul li {
+    background: #f4f1cc;
+}
+
+.blog-menu li:hover a {
+    background-color: #f4f1cc;
+}
+
+/*Change the color of the links.*/
+body a {
+    color: #d6d099;
+}
+
+body a:hover {
+    color: #d6d099;
+}
+
+/*Change the color of the links in meta for posts*/
+.post-meta a:hover {
+    color: #d6d099;
+}
+
+/*Change background color for selected text area*/
+::selection {
+    background: #EEE8AA;
+    color: #fff;
+}
+
+/*Change color of the credits in footer section*/
+.credits, .credits a {
+    color: #444;
+}
+
+.credits, .credits a:hover {
+    color: #666;
+	  }
+
+/*Remove the footer section by css. NOTE! No widgets in footer possible!*/
+.footer.section.large-padding.bg-dark {
+    height: 0px;
+    padding: 0px;
+}
+
+/*Change color responsive layouts*/
+.toggle-container {
+    background: #eee8aa;
+}
+
+.search-toggle .glass {
+    background: #eee8aa;
+}
+
+.nav-toggle .bar {
+    background: #444;
+}
+
+.search-toggle .metal {
+    background: #444;
+}
+
+.search-toggle .handle {
+    background: #444;
+}
+
+.mobile-menu a {
+    background: #eee8aa;
+    color: #444;
+}
+
+.blog-search, .navigation {
+    background: #eee8aa;
+}
+
+.blog-search #searchsubmit {
+    background: #444;
+    border: 1px solid #444;
+}
+
+.blog-search #searchsubmit:hover {
+    background: #666;
+    border: 1px solid #666;
+}
