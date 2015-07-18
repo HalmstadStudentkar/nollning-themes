@@ -1,5 +1,5 @@
 /*
-Theme Name: Hemingway CHILDNAME
+Theme Name: Hemingway SOK
 Template: hemingway
 Author: Madeleine Holgersson
 License: GNU General Public License version 2.0
@@ -8,8 +8,104 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /*
 Colors used in this child theme:
-Association color: 
-Lighter shade in menu and links: 
-Light shade credits: 
-Dark shade in header section: 
+Association color: #fc8527;
+Lighter shade in menu and links: #fc913c
+Light shade credits: #d9e1d7
+Dark shade in header section: #444
 */
+
+/*Change the color of the header block*/
+.blog-info {
+    background: #fc8527;
+}
+
+.blog-title a:hover {
+    color: #444;
+}
+
+/*Change the color of menu div*/
+.section.bg-dark {
+    background: #fc8527;
+}
+
+.blog-menu ul li {
+    background: #fc913c;
+}
+
+.blog-menu li:hover a {
+    background-color: #fc913c;
+}
+
+/*Change the color of the links.*/
+body a {
+    color: #fc913c;
+}
+
+body a:hover {
+    color: #fc913c;
+}
+
+/*Change the color of the links in meta for posts*/
+.post-meta a:hover {
+    color: #fc913c;
+}
+
+/*Change background color for selected text area*/
+::selection {
+    background: #fc8527;
+    color: #fff;
+}
+
+/*Change color of the credits in footer section*/
+.credits, .credits a {
+    color: #d9e1d7;
+}
+
+.credits, .credits a:hover {
+    color: #fff;
+	  }
+
+/*Remove the footer section by css. NOTE! No widgets in footer possible!*/
+.footer.section.large-padding.bg-dark {
+    height: 0px;
+    padding: 0px;
+}
+
+/*Change color responsive layouts*/
+.toggle-container {
+    background: #fc8527;
+}
+
+.search-toggle .glass {
+    background: #fc8527;
+}
+
+.nav-toggle .bar {
+    background: #444;
+}
+
+.search-toggle .metal {
+    background: #444;
+}
+
+.search-toggle .handle {
+    background: #444;
+}
+
+.mobile-menu a {
+    background: #fc8527;
+}
+
+.blog-search, .navigation {
+    background: #fc8527;
+}
+
+.blog-search #searchsubmit {
+    background: #444;
+    border: 1px solid #444;
+}
+
+.blog-search #searchsubmit:hover {
+    background: #666;
+    border: 1px solid #666;
+}
