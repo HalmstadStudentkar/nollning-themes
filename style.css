@@ -1,5 +1,5 @@
 /*
-Theme Name: Hemingway CHILDNAME
+Theme Name: Hemingway Överstaben
 Template: hemingway
 Author: Madeleine Holgersson
 License: GNU General Public License version 2.0
@@ -8,8 +8,136 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /*
 Colors used in this child theme:
-Association color: 
-Lighter shade in menu and links: 
-Light shade credits: 
-Dark shade in header section: 
+Association color: #dd8f39
+
+Accent dark purple: #825e9e
+Accent light purple: #F2D6E7
+
+Lighter shade in menu and links: #557b4b
+Light shade credits: #d9e1d7
+Dark shade in header section: #444
 */
+
+/*Change the color of the header block*/
+.blog-info {
+    background: #dd8f39;
+}
+
+.blog-title a {
+    color: #f9eef5;
+}
+
+.blog-title a:hover {
+    color: #825e9e;
+}
+
+/*Change the color of menu div*/
+.section.bg-dark {
+    background: #fff;
+    background-image: url("http://nollning.nu/wp-content/uploads/2015/04/os_meny-background_1.2.png");
+    background-repeat: repeat-x;
+}
+
+.blog-menu a {
+    color: #444;
+    height:68px;
+}
+
+.blog-menu ul li {
+    background: #dd8f39;
+}
+
+.blog-menu li:hover a {
+    background-color: #dd8f39;
+}
+
+.blog-menu .current-menu-item a {
+    color:#888;
+}
+
+/*Change the color of the links.*/
+body a {
+    color: #DD8F39;
+}
+
+body a:hover {
+    color: #DD8F39;
+}
+
+/*Change the color of the links in meta for posts*/
+.post-meta a:hover {
+    color: #DD8F39;
+}
+
+/*Change background color for selected text area*/
+::selection {
+    background: #DD8F39;
+    color: #fff;
+}
+
+/*Remove the footer section by css. NOTE! No widgets in footer possible!*/
+.footer.section.large-padding.bg-dark {
+    background-image: url("http://nollning.nu/wp-content/uploads/2015/04/os_meny-background.png");
+    height: 20px;
+    padding: 0px;
+}
+
+/*Change color of the credits in footer section*/
+.credits.section.bg-dark.no-padding {
+    background: #f9eef5;
+}
+
+.credits, .credits a {
+    color: #444;
+}
+
+.credits, .credits a:hover {
+    color: #825e9e;
+}
+
+/*Change color responsive layouts*/
+.toggle-container {
+    background-image: url("http://nollning.nu/wp-content/uploads/2015/04/os_men\
+y-background.png");
+    background-repeat: repeat-x;
+    height: 68px;
+}
+
+.search-toggle .glass {
+    background: #f9eef5;
+}
+
+.nav-toggle .bar {
+    background: #444;
+}
+
+.search-toggle .metal {
+    background: #444;
+}
+
+.search-toggle .handle {
+    background: #444;
+}
+
+.mobile-menu a {
+    background: #dd8f39;
+    color: #fff;
+}
+
+.mobile-menu a:hover {
+    color: #444;
+}
+
+.blog-search, .navigation {
+    background: #dd8f39;
+}
+
+.blog-search #searchsubmit {
+    background: #444;
+    border: 1px solid #444;
+}
+
+.blog-search #searchsubmit:hover {
+    background: #666;
+    border: 1px solid #666;
+}
