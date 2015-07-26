@@ -141,3 +141,26 @@ y-background.png");
     background: #666;
     border: 1px solid #666;
 }
+
+/*Custom sidebar for mascots*/
+.custom-sidebar {
+    width: 27.5%;
+    float: right;
+}
+
+.custom-sidebar li {
+    list-style-type: none;
+}
+
+.custom-sidebar li h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.custom-sidebar li ul li {
+    border-bottom: none;
+}

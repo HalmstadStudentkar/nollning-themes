@@ -81,9 +81,16 @@
 		<?php endif; ?>
 	
 	</div> <!-- /content -->
-	
-	<?php get_sidebar(); ?>
-	
+
+<div class="custom-sidebar" role="complementary">
+<?php
+    if ( in_category('maskotar') ) :
+        if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('custom-sidebar') ) :
+        endif;
+    endif;
+?>
+</div><!-- /custom-sidebar -->
+
 	<div class="clear"></div>
 
 </div> <!-- /wrapper -->
