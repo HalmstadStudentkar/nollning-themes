@@ -146,6 +146,12 @@ y-background.png");
 .custom-sidebar {
     width: 27.5%;
     float: right;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.3em;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #444;
+
 }
 
 .custom-sidebar li {
@@ -156,11 +162,11 @@ y-background.png");
     font-family: 'Raleway', sans-serif;
     font-size: 0.9rem;
     text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-weight: 700;c
     color: #444;
 }
 
 .custom-sidebar li ul li {
     border-bottom: none;
+    padding-top: 10px;
 }
