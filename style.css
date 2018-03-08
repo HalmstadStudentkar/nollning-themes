@@ -1,10 +1,10 @@
 /*
 Theme Name: Hemingway Överstaben
 Template: hemingway
-Author: Madeleine Holgersson
+Author: Madeleine Bagge
 License: GNU General Public License version 2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 2015-2
+Version: 2018-1
 */
 
 /*
@@ -35,7 +35,7 @@ Dark shade in header section: #444
 /*Change the color of menu div*/
 .section.bg-dark {
     background: #fff;
-    background-image: url("http://nollning.nu/wp-content/uploads/2015/04/os_meny-background_1.2.png");
+    background-image: url("https://nollning.nu/wp-content/uploads/2015/04/os_meny-background_1.2.png");
     background-repeat: repeat-x;
 }
 
